@@ -1,0 +1,113 @@
+@media (max-width:1300px) {
+    /* Custom css */
+    h1 {
+        font-size: 50px;
+    }
+
+    /* Navbar */
+    .header__wrapper .menu__navbar__nav {
+        width: auto;
+    }
+}
+@media (max-width:1230px) {
+    /* Navbar */
+    .header__wrapper .nav-item {
+        margin: 0 5px;
+    }
+
+    /* Hero */
+    .hero__wrapper {
+        padding: 50px 0 10px;
+    }
+}
+@media (max-width:1070px) {
+    /* Navbar */
+    .header__wrapper .nav-item .nav-link {
+        font-size: 16px;
+    }
+
+    /* Hero */
+    .carousel-caption {
+        bottom: 1.25rem;
+    }
+}
+@media (max-width:992.5px) {
+    /* Custom css */
+    h1 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+
+    /* Navbar */
+    .header__wrapper .navbar {
+        background: var(--bg-red);
+    }
+    .header-scrolled {
+        height: auto;
+    }
+    .header__wrapper .navbar-brand img {
+        width: 180px;
+    }
+    .header__wrapper .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .header__wrapper .menu__navbar__nav {
+        text-align: center;
+    }
+    .header__wrapper .nav-item .nav-link {
+        margin-top: 15px;
+    }
+
+
+    /* Footer */
+    .footer__wrapper .block__newsletter {
+        border-radius: 30px;
+    }
+}
+@media (max-width:767px) {
+    /* Footer */
+    .footer__wrapper .footer__logo__img {
+        max-width: 50%;
+    }
+}
+@media (max-width:610px) {
+    /* Custom css */
+    h1 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .main-btn {
+        font-size: 13px !important;
+    }
+
+    /* Hero */
+    .hero__wrapper {
+        padding-top: 90px;
+    }
+    .hero__wrapper .carousel-caption {
+        bottom: -0.25rem;
+    }
+    .hero__wrapper .carousel-inner {
+        height: 200px;
+    }
+    .hero__wrapper .carousel-item {
+        height: 100%;
+    }
+    .hero__wrapper .carousel-indicator {
+        bottom: -20px;
+    }
+}
+@media(max-width:400px) {
+    /* Footer */
+    .footer__wrapper .block__newsletter button {
+        padding: 15px 5px;
+        font-size: 12px;
+    }
+}
